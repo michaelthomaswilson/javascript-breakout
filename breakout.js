@@ -23,7 +23,7 @@ Breakout = {
 
     ball: {
       radius:  0.3,
-      speed:   15,
+      speed:   30,  // default is 15
       labels: {
         3: { text: 'ready...', fill: '#D82800', stroke: 'black', font: 'bold 28pt arial' },
         2: { text: 'set..',    fill: '#FC9838', stroke: 'black', font: 'bold 28pt arial' },
@@ -33,8 +33,8 @@ Breakout = {
 
     paddle: {
       width:  6,
-      height: 1,
-      speed:  20
+      height: 1, //default is 1
+      speed:  20 // default  is 20
     },
 
     color: {
